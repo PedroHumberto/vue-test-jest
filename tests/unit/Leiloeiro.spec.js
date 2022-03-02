@@ -4,7 +4,7 @@ import { getLeilao, getLances } from '@/http'
 import flushPromises from 'flush-promises'
 
 
-//Ao escrever testes unitários, não queremos testar as dependências do componente.
+//Ao escrever testes unitários, não queremos testar as dependências do componente.np
 //simulação do leilão que definimos
 jest.mock('@/http')
 
